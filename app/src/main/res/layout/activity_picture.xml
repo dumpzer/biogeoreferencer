@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:baselineAligned="false"
+              tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imgPreview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnCapturePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingRight="10dp"
+            android:gravity="bottom"
+            android:text="FOTOGRAFIA" />
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="MAPA"
+            android:gravity="bottom"
+            android:visibility="gone" />
+
+    </TableRow>
+
+</LinearLayout>

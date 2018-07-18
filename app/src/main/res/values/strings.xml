@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">bioref</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="adicionar_elemento">Adicionar</string>
+    <string name="procurar_elemento">Procurar</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signin">Signin</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_user_images">UserImages</string>
+    <string name="selectbd">Selecione a Espécie</string>
+    <string name="takepic">Fotografar</string>
+    <string name="infobd">Informação do Avistamento</string>
+    <string name="signupuser">Registar Utilizador</string>
+    <string name="actualplace">Localização Atual</string>
+    <string name="title_activity_user_picture">UserPicture</string>
+    <string name="title_activity_full_picture">FullPicture</string>
+    <string name="user_images">Imagens dos Utilizadores</string>
+</resources>

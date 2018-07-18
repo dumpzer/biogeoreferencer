@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <!-- Input description -->
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNComum"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_margin="5dip"
+                android:layout_marginBottom="15dip"
+                android:gravity="top"
+                android:lines="4"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/ivBdiversidade"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher" />
+
+            <!-- Input Name -->
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="10dip"
+                    android:text="Reino:"
+                    android:textSize="17dip" />
+
+                <TextView
+                    android:id="@+id/tvReino"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_marginBottom="15dip" />
+            </TableRow>
+
+            <!-- Price Label -->
+
+
+            <!-- Input Price -->
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="10dip"
+                    android:text="Filo:"
+                    android:textSize="17dip" />
+
+                <TextView
+                    android:id="@+id/tvFilo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_marginBottom="15dip"
+                    android:singleLine="true" />
+            </TableRow>
+
+            <!-- Description Label -->
+
+
+            <!-- Input description -->
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="10dip"
+                    android:text="Classe:"
+                    android:textSize="17dip" />
+
+                <TextView
+                    android:id="@+id/tvClasse"
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"
+                    android:layout_margin="5dip"
+                    android:layout_marginBottom="15dip"
+                    android:gravity="top"
+                    android:lines="4" />
+            </TableRow>
+
+            <!-- Description Label -->
+
+
+            <!-- Input description -->
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="10dip"
+                    android:text="Ordem:"
+                    android:textSize="17dip" />
+
+                <TextView
+                    android:id="@+id/tvOrdem"
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"
+                    android:layout_margin="5dip"
+                    android:layout_marginBottom="15dip"
+                    android:gravity="top"
+                    android:lines="4" />
+            </TableRow>
+
+            <!-- Description Label -->
+
+
+            <!-- Input description -->
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="10dip"
+                    android:text="Familia:"
+                    android:textSize="17dip" />
+
+                <TextView
+                    android:id="@+id/tvFamilia"
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"
+                    android:layout_margin="5dip"
+                    android:layout_marginBottom="15dip"
+                    android:gravity="top"
+                    android:lines="4" />
+            </TableRow>
+
+            <!-- Input description -->
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="10dip"
+                    android:text="Sub-Familia:"
+                    android:textSize="17dip" />
+
+                <TextView
+                    android:id="@+id/tvSFamilia"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_margin="5dip"
+                    android:layout_marginBottom="15dip"
+                    android:gravity="top"
+                    android:lines="4" />
+            </TableRow>
+
+            <!-- Input description -->
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:paddingTop="10dip"
+                    android:text="Género:"
+                    android:textSize="17dip" />
+
+                <TextView
+                    android:id="@+id/tvGenero"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:layout_margin="5dip"
+                    android:layout_marginBottom="15dip"
+                    android:gravity="top"
+                    android:lines="4" />
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="Coordenadas Atuais:"
+                android:textSize="17dip" />
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvLat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="N/D"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <TextView
+                    android:id="@+id/tvLng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="N/D"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+            </TableRow>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/btnMarcar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Marcar" />
+
+                <Button
+                    android:id="@+id/btnPictures"
+                    android:text="Imagens"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
